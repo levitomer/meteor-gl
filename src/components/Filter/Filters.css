@@ -1,0 +1,71 @@
+.filters-container {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.filter-title {
+    margin: 15px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Monoton', cursive;
+    z-index: 30;
+    text-align: center;
+}
+
+.filters {
+    /* From https://css.glass */
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+    color: white;
+    background-color: transparent;
+    margin: 20px;
+    padding: 20px;
+    width: 140px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.filter-fields {
+    width: fit-content;
+}
+
+input[type='text'] {
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    color: white;
+    outline: 0;
+    background: transparent;
+    text-align: right;
+    font-size: 15px;
+    height: 10px;
+    width: 100px;
+    position: relative;
+}
+
+input[type='text']:hover {
+    border-color: 1px solid white;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type='text'] {
+    -moz-appearance: textfield;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+}

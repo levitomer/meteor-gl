@@ -1,0 +1,5 @@
+export const GET_METEORS = 'GET_METEORS';
+export const UPDATE_YEAR = 'UPDATE_YEAR';
+export const MAX_MASS_EXCEEDED = 'MAX_MASS_EXCEEDED';
+export const FIND_METEORS_BY_MASS = 'FIND_METEORS_BY_MASS';
+export const UPDATE_MASS = 'UPDATE_MASS';
